@@ -1,8 +1,10 @@
 import React from 'react';
 
-let cabecera = () =>{
+let cabecera = (props) =>{
+	const {titulo,mensaje} = props;
+    console.log(mensaje);
     return (
-        <div>Calculadora</div>
+        <div>{titulo}</div>
     );
 }
 

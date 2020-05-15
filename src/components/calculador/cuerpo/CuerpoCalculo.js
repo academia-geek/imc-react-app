@@ -7,7 +7,7 @@ function cuerpo(){
     return (
         <section>
             <FormularioCalculo></FormularioCalculo>
-            <VerCalculo/>
+            <VerCalculo altura={120} peso = {80}/>
             <Bascula/>
         </section>
     );

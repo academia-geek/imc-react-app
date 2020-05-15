@@ -5,7 +5,7 @@ function bs(){
 	console.log(img_bascula);
     return (
         <article>
-            
+            <img src={img_bascula} width = "100" alt = "Img bascula"/>
         </article>
     );
 }

@@ -4,7 +4,7 @@ import CuerpoCalculo from './cuerpo/CuerpoCalculo';
 
 let Calculador = () =>  (
 	            <section>
-                    <CabeceraCalculo/>
+                    <CabeceraCalculo titulo = "Calculadora!" mensaje = "Dia del docente"/>
                     <CuerpoCalculo/>
                 </section> );
 
