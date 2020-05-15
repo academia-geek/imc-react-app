@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
 import IMC from './components/IMC';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './style.css';
 
 ReactDOM.render(  
   <React.StrictMode>
