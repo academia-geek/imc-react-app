@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
+import IMC from './components/IMC';
 
 ReactDOM.render(  
   <React.StrictMode>
+    <IMC></IMC>
   </React.StrictMode>,
   document.getElementById('app')
 );
