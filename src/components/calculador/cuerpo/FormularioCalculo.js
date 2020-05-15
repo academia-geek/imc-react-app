@@ -11,3 +11,5 @@ const formulario = () => {
         </article>
     );
 }
+
+export default formulario;
